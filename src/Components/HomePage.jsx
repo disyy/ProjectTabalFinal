@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
 
+
  class HomePage extends Component {
   render() {
     return (
-        <div className="container">
+
+      <div className="homebg" style={{backgroundColor: "#BDCDD6",  fontFamily: 'Spot'}} >
+        <div className="container" >
         <div className="jumbotron">
           <h1 className="display-4">Welcome to my Fitness Website</h1>
           <p className="lead">Get fit and healthy with our expert tips and personalized plans.</p>
@@ -17,7 +20,7 @@ import React, { Component } from 'react'
               <img src="https://source.unsplash.com/1600x900/?fitness,workout" className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Fitness Programs</h5>
-                <p className="card-text">We offer a variety of fitness programs for all levels and interests, including yoga, HIIT, strength training, and more.</p>
+                <p className="card-text">We offer a variety of fitness programs for all levels and interests, including yoga, HIIT, strength training.</p>
                 <a href="#" className="btn btn-primary">Learn More</a>
               </div>
             </div>
@@ -44,6 +47,7 @@ import React, { Component } from 'react'
           </div>
         </div>
       </div>
+    </div>
     )
   }
 }

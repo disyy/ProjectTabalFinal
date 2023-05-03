@@ -4,10 +4,10 @@ import'bootstrap/dist/css/bootstrap.css';
 export default class NavbarComp extends Component {
   render() {
     return (
-        <nav class="navbar navbar-expand-lg navbar-light" style={{ backgroundColor: "#f3edf6" }}>
+        <nav class="navbar navbar-expand-lg navbar-light" style={{ backgroundColor: "#567189" }}>
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img src="https://image.similarpng.com/very-thumbnail/2021/07/Fitness-Gym-logo-design-template-on-transparent-background-PNG.png" width="30" height="30" class="d-inline-block align-top" alt="logo"/>
+            <img src="https://image.similarpng.com/very-thumbnail/2021/07/Fitness-Gym-logo-design-template-on-transparent-background-PNG.png" width="30" height="30" class="d-inline-block align-top" alt="logo" />
             Power Fitness
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
